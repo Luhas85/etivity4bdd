@@ -7,12 +7,12 @@ Progetto E-tivity 4 Basi di Dati Unicusano
 &ensp;&ensp;2.2_Inserendo N verranno chiesti IP, Porta e nome dello schema a cui collegarsi.  
 
 3_Inizialmente il db sarà vuoto, digitare 1 per creare le tabelle.  
-&ensp;&ensp;3.1_Nel sottomenu NON digitare S per creare tutte le tabelle del progetto e-tivity3.  
-&ensp;&ensp;3.2_Digitando S si accede a una funzione che permette di creare una tabella dinamica, con parametri definiti dall'utente (nometabella, numerodicampi, tipididato delle colonne etc.).  
+&ensp;&ensp;3.1_Alla richiesta NON digitare S per creare tutte le tabelle del progetto e-tivity3.  
+&ensp;&ensp;3.2_Digitando S si accede ad una funzione che permette di creare una tabella dinamica, con parametri definiti dall'utente (nometabella, numerodicampi, tipididato delle colonne etc.).  
 
 4_Mancano i dati dentro le tabelle, digitare 2 per inserire i dati del progetto.  
-&ensp;&ensp;4.1_Nel sottomenu NON digitare S per inserire tutti i record del progetto e-tivity3.  
-&ensp;&ensp;4.2_Digitando S si accede a un sottomenu in cui si può scegliere quali dati aggiungere al database.  
+&ensp;&ensp;4.1_Alla richiesta NON digitare S per inserire tutti i record del progetto e-tivity3.  
+&ensp;&ensp;4.2_Digitando S si accede ad una funzione in cui si può scegliere quali dati aggiungere al database.  
   
 5_A questo punto si possono usare le altre funzioni, 3-4 e 5 per visualizzare i dati, aggiornare i record o cancellare.  
 
