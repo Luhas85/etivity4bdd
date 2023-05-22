@@ -5,8 +5,8 @@ Progetto E-tivity 4 Basi di Dati Unicusano
 2_Inserire i parametri di connessione al database (inserendo S dopo utente e password il motore creato sarà su 127.0.0.1:3306/etivity4)  
 
 3_Inizialmente il db sarà vuoto, digitare 1 per creare le tabelle  
-  3.1_Nel sottomenu NON digitare S per creare tutte le tabelle del progetto e-tivity3  
-  3.2_Digitando S si accede a una funzione che permette di creare una tabella dinamica, con parametri definiti dall'utente (nometabella, numerodicampi, tipididato delle colonne etc.)  
+&nbsp&nbsp3.1_Nel sottomenu NON digitare S per creare tutte le tabelle del progetto e-tivity3  
+&nbsp&nbsp3.2_Digitando S si accede a una funzione che permette di creare una tabella dinamica, con parametri definiti dall'utente (nometabella, numerodicampi, tipididato delle colonne etc.)  
 
 4_Mancano i dati dentro le tabelle, digitare 2 per inserire i dati del progetto
   4.1_Nel sottomenu NON digitare S per inserire tutti i record del progetto e-tivity3
