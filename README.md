@@ -2,7 +2,9 @@
 Progetto E-tivity 4 Basi di Dati Unicusano
 
 1_Il progetto si lancia eseguendo il file main.py.  
-2_Inserire i parametri di connessione al database (inserendo S dopo utente e password il motore creato sarà su 127.0.0.1:3306/etivity4).  
+2_Inserire i parametri di connessione al database.  
+&ensp;&ensp;2.1_Inserendo S dopo utente e password il motore creato sarà su 127.0.0.1:3306/etivity4.  
+&ensp;&ensp;2.2_Inserendo N verranno chiesti IP, Porta e nome dello schema a cui collegarsi.  
 
 3_Inizialmente il db sarà vuoto, digitare 1 per creare le tabelle.  
 &ensp;&ensp;3.1_Nel sottomenu NON digitare S per creare tutte le tabelle del progetto e-tivity3.  
