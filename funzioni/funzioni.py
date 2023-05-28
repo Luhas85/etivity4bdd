@@ -51,8 +51,8 @@ def visualizzadatitabella():
      1_Visualizzare tutti i dati di una tabella\n\
      2_Vedere quali persone sono assegnate ai reparti\n\
      3_Vedere il nome dei set venduti dai dipendenti che guadagnano più di 1500€ \n\
-     4_Quanto hanno incassato le varie sedi  (La funzione sql_mode <<ONLY_FULL_GROUP_BY deve essere disabilitata>>)\n\
-     5_Vedere quali set sono stati venduti di più (La funzione sql_mode <<ONLY_FULL_GROUP_BY deve essere disabilitata>>)\n\
+     4_Quanto hanno incassato le varie sedi\n\
+     5_Vedere quali set sono stati venduti di più\n\
      6_Uscire dalle opzioni di scelta\n")
     
     if ((richiestaquery.isdigit() == False)or(richiestaquery=="0")or((int(richiestaquery)>6)or(int(richiestaquery)<0))):   #controlla che il campo inserito sia un numero, che non sia 0, e che sia compreso nel range delle scelte
