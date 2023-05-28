@@ -47,7 +47,7 @@ def visualizzadatotabella(engine,a):
       
   elif (a==4):                               
     print("Incasso Totale delle Sedi:\n")
-    for a, d, p, v, t, w in session.query(func.sum(Vendite.PrezzoTotale), Venduto, SetPronto, Magazzino, Reparto, Sede  
+    for a, w in session.query(func.sum(Vendite.PrezzoTotale), Sede  
     ).filter(Sede.ID_Sede == Reparto.CodiceSede
     ).filter(Magazzino.ID_Reparto == Reparto.ID_Reparto
     ).filter(SetPronto.ID_Magazzino == Magazzino.ID_Magazzino
@@ -59,7 +59,7 @@ def visualizzadatotabella(engine,a):
       print ("Sede: {} Incasso: {}".format(w.NomeSede, a))
   elif (a==5):
     print("Set più venduti:\n")
-    for u, c, v, s in session.query(func.sum(Venduto.Prezzo), func.count(Venduto.ID_Venduto), Venduto, SetPronto  
+    for u, c, s in session.query(func.sum(Venduto.Prezzo), func.count(Venduto.ID_Venduto), SetPronto  
     ).filter(Venduto.ID_SetPronto == SetPronto.ID_SetPronto
     ).order_by(desc(func.sum(Venduto.Prezzo))
     ).group_by(Venduto.ID_SetPronto
