@@ -16,8 +16,7 @@ Progetto E-tivity 4 Basi di Dati Unicusano
   
 5_A questo punto si possono usare le altre funzioni, 3-4 e 5 per visualizzare i dati, aggiornare i record o cancellare.  
 
-6_Digitando 3 si accede a un menu con delle query a scelta. Digitando 1 si accede a un sottomenu dove verranno elencate 8 tabelle di cui poter vedere il contenuto integrale.  
-NOTA: Nel primo menu, per poter visualizzare le opzioni 4 e 5, l'sql_mode "only_full_group_by" deve essere disabilitato.  
+6_Digitando 3 si accede a un menu con delle query a scelta. Digitando 1 si accede a un sottomenu dove verranno elencate 8 tabelle di cui poter vedere il contenuto integrale.   
 
 7_Con 4 si accede al menu di UPDATE, dove saranno elencati 4 record modificabili.  
 
